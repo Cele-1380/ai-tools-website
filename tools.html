@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Tools</title>
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/script.js"></script>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="pricing.html">Pricing</a>
+</nav>
+
+<h2>AI Text Generator</h2>
+<textarea id="aiInput" placeholder="Enter your topic..."></textarea>
+<button onclick="generateText()">Generate</button>
+<p id="aiOutput"></p>
+
+<h2>AI Paraphraser</h2>
+<textarea id="paraInput" placeholder="Paste text..."></textarea>
+<button onclick="paraphraseText()">Paraphrase</button>
+<p id="paraOutput"></p>
+
+<h2>AI Summarizer</h2>
+<textarea id="sumInput" placeholder="Paste long text..."></textarea>
+<button onclick="summarizeText()">Summarize</button>
+<p id="sumOutput"></p>
+
+<h2>Password Generator</h2>
+<button onclick="generatePassword()">Generate Password</button>
+<p id="passwordOutput"></p>
+
+<h2>Word Counter</h2>
+<textarea id="wordInput" oninput="countWords()"></textarea>
+<p id="wordCount">Words: 0</p>
+
+<button onclick="toggleDark()">🌙 Dark Mode</button>
+
+</body>
+  </html>
